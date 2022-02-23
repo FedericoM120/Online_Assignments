@@ -4,6 +4,7 @@ output.innerHTML = '';
 function coundtDown() {
     for (let i = 10; i >= 0; i--) {
        const para = document.createElement('p');
+       
        if (i > 0) {
           para.textContent = `Countdown ${i}`;  
         } else {
@@ -11,8 +12,9 @@ function coundtDown() {
     }
     output.appendChild(para);
 }
+}
 
-
+coundtDown()
 
 // let i = 10;
 
