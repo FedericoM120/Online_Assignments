@@ -1,9 +1,12 @@
+let output = document.querySelector('.output');
+output.innerHTML = '';
 
 function coundtDown() {
-    const para = document.createElement('p');
-    for (let i = 10; i > 0; i--) {
-        para.textContent = `Countdown ${i}`;
-    } else {
+    for (let i = 10; i >= 0; i--) {
+       const para = document.createElement('p');
+       if (i > 0) {
+          para.textContent = `Countdown ${i}`;  
+        } else {
         para.textContent = 'Blast off!';
     }
     output.appendChild(para);
