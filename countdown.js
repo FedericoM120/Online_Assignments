@@ -18,7 +18,7 @@ function countDown() {
     }
 }
 
-console.log(countdownPhrase);
+console.log(countDown);
 
 
 
