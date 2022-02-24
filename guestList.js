@@ -1,21 +1,11 @@
 const people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
 
-for (let i = 0; i < people.length; i++) {
-    const admitted = document.querySelector('.admitted');
-    const refused = document.querySelector('.refused');
 
-    if (people === 'Lola' || 'Phil') {
-        refused.textContent = 'Refuse: '
-        refused.textContent += ;
-    } else {
-        admitted.textContent = 'Admit: ';
-        admitted.textContent += ;
+for (const person of people) {
+    if (person ==== 'Phil' || person === 'Lola') {
+
     }
 }
-
-
-
-
 
 
 
